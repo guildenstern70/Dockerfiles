@@ -18,7 +18,7 @@ Modify as needed. To persist changes, OPEN ANOTHER TERMINAL WITHOUT EXITING:
 
 Get your image id
 
-    docker commit c3f279d17e0a  guildenstern/ubuntu18jdk8:version
+    docker commit [image id]  guildenstern/ubuntu18jdk8:version
 
 If you want to push image onto Docker Hub:
 
