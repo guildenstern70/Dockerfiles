@@ -1,29 +1,10 @@
-### Ubuntu-JDK Docker image
+### Dockerfiles
 
-Docker image based on Ubuntu 18.04 with Oracle JDK 1.8.171
+Docker images available:
 
-Create Docker image
+JDK11Ubuntu => https://cloud.docker.com/u/guildenstern70/repository/docker/guildenstern70/ubuntu1810jdk11
 
-    docker build . -t ubuntu18jdk8
+JDK11GradleSlim => https://cloud.docker.com/u/guildenstern70/repository/docker/guildenstern70/jdk11gradle531slim
 
--t is "tag" to tag image
 
-Run image with shell
-
-    docker run -it ubuntu18jdk8 /bin/bash
-
-Modify as needed. To persist changes, OPEN ANOTHER TERMINAL WITHOUT EXITING:
-
-    docker ps 
-
-Get your image id
-
-    docker commit c3f279d17e0a  guildenstern/ubuntu18jdk8:version
-
-If you want to push image onto Docker Hub:
-
-    export DOCKER_ID_USER="guildenstern70"
-    docker login
-    docker tag ubuntu18jdk8 $DOCKER_ID_USER/ubuntu18jdk8
-    docker push $DOCKER_ID_USER/ubuntu18jdk8
 
