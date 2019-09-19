@@ -14,6 +14,9 @@ https://cloud.docker.com/u/guildenstern70/repository/docker/guildenstern70/jdk11
 JDK11GradleNode => 
 https://cloud.docker.com/u/guildenstern70/repository/docker/guildenstern70/jdk11gradle531node
 
+AngularNodeJS =>
+TO-DO
+
 Building image:
 
     cd JDK12GradleSlim
