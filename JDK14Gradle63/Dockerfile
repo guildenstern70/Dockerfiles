@@ -1,4 +1,4 @@
-FROM gradle:6.3.0-jdk14
+FROM gradle:6.6.1-jdk14
 MAINTAINER Alessio Saltarin <alessiosaltarin@gmail.com>
 USER root
 RUN apt-get update; apt-get -y install curl
