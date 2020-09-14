@@ -21,5 +21,6 @@ Building image:
 
     cd JDK12GradleSlim
     docker build -t guildenstern70/jdk12gradle56slim .
+    [opt] docker push guildenstern70/jdk12gradle56slim
 
 
